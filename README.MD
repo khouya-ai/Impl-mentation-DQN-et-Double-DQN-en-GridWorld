@@ -229,8 +229,8 @@ print("Modèle sauvegardé sous dqn_gridworld_model.keras")
   - Initial : epsilon = 1.0 (100% d'exploration).
   - Après 1000 épisodes : epsilon ≈ 0.01 (1% d'exploration).
 
-![img.png](img.png)
 ![img_1.png](img/img_1.png)
+![img_2.png](img/img_2.png)
 
 ### Limitations:
 DQN surestime les Q-values car le même réseau de neurones est utilisé pour sélectionner l'action optimale et aussi évaluer la valeur de cette action cela crée une erreur de surestimation qui se propage dans la mise à jour.
